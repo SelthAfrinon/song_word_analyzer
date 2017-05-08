@@ -1,0 +1,12 @@
+Song Word Analyzer change log
+
+2017-05-06
+	- Finished main components (word, word_tracker, main).
+
+2017-05-08
+	- Added functionality to print results of analysis to an output text file.
+		- Changed word_tracker::print_content() to create and return a string instead of directly printing to screen.
+		- Changed argument input sorter to accept "-l" for list file and "-p" for output file.
+	- Changed word::set_song_stat_false() and word::set_song_stat_true() into a single function word::set_song_stat(bool).
+		- Changed word_tracker::inc_word(string) to user new function.
+	- Added comments.
