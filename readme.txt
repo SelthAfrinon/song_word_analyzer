@@ -1,6 +1,8 @@
 Program: Song Word Analyzer
 Author: Martin Rivera
 Date: 2017-05-08
+Readme Last Revised: 2017-05-15
+Project Status: Finished
 
 Description: Song Word Analyzer takes a list of songs and the lyrics of those songs and counts every occurrance of the words in the songs.
 
